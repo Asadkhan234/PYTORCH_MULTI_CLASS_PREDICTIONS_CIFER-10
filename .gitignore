@@ -1,0 +1,83 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+deep_learning_venv/
+
+# ==========================================
+# PyTorch / Model Files
+# ==========================================
+
+# Don't upload trained model weights
+
+*.pt
+*.ckpt
+*.onnx
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Data
+# ==========================================
+
+data/
+dataset/
+datasets/
+*.csv
+*.zip
+
+# ==========================================
+# FastAPI
+# ==========================================
+
+*.log
+
+# ==========================================
+# React / Vite
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!.env.example
+
+# ==========================================
+# General
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ==========================================
+# OS / Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
